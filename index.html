@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Client!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dist/css/styles.css?v=1.0.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="dist/js/scripts.js?v=1.0.0" defer></script>
+</head>
+<body>
+<div class="container">
+    <h1 id="title">BattleShip</h1>
+     <div class="ai-form-container">
+        <form action = "" method="post">
+            <div class="ai-form">
+
+                <label for="AiNomJoueur1" class="AiNomJoueur1">Nom de l'IA #1</label>
+                <input id="AiNomJoueur1" type="text">
+
+                <label for="AiURLJoueur1" class="AiURLJoueur1">URL de l'IA #1</label>
+                <input id="AiURLJoueur1" type="text">
+
+                <label for="AiJetonJoueur1" class="AiJetonJoueur1">Jeton de l'IA #1</label>
+                <input id="AiJetonJoueur1" type="text">
+            </div>
+            <div class="ai-form">
+
+                <label for="AiNomJoueur2" class="AiNomJoueur2">Nom de l'IA #2</label>
+                <input id="AiNomJoueur2" type="text">
+
+                <label for="AiURLJoueur2" class="AiURLJoueur2">URL de l'IA #2</label>
+                <input id="AiURLJoueur2" type="text">
+
+                <label for="AiJetonJoueur2" class="AiJetonJoueur2">Jeton de l'IA #2</label>
+                <input id="AiJetonJoueur2" type="text">
+            </div>
+        </form>
+        <button id ="ai-form-submit" type="submit">Send it</button>
+    </div>
+    <div class="grids">
+    <div id="ai1-grid" class="grid">
+
+    </div>
+    <div id="ai2-grid" class="grid"></div></div>
+</div>
+</body>
+</html>

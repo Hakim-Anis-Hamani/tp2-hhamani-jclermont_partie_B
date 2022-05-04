@@ -1,0 +1,19 @@
+{
+  "name": "tp2-hhamani-jclermont_partie_b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hakim-Anis Hamani & Jacob Clermont",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "laravel-mix": "^6.0.43",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
