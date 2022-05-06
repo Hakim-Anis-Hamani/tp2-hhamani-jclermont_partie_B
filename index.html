@@ -12,7 +12,7 @@
 <div class="container">
     <h1 id="title">BattleShip</h1>
     <div class="ai-form-container">
-        <form action="" method="post">
+        <form action="" method="post" id="form">
             <div class="ai-form">
 
                 <label for="AiNomJoueur1" class="AiNomJoueur1">Nom de l'IA #1</label>
@@ -38,27 +38,28 @@
         </form>
         <button id="end-game" type="button">Stop Game</button>
         <button id="ai-form-submit" type="submit">Start game</button>
+        <button id="continue-game" type="button">Continue</button>
         <button id="pause-game" type="button">Pause</button>
     </div>
     <div class="grids" id="grids">
         <ul id="ul-left">
-            <li>Porte Avions : En Vie</li>
-            <li>Cuirasse : En Vie</li>
-            <li>Destroyer : En Vie</li>
-            <li>Sousmarin : En Vie</li>
-            <li>Patrouilleur : En Vie</li>
+            <li id="porte-avions1">Porte Avions : En Vie</li>
+            <li id="cuirasse1">Cuirasse : En Vie</li>
+            <li id="destroyer1">Destroyer : En Vie</li>
+            <li id="sous-marin1">Sousmarin : En Vie</li>
+            <li id="patrouilleur1">Patrouilleur : En Vie</li>
         </ul>
         <div id="ai1-grid" class="grid"></div>
 
-        <div><textarea id="history" name="history" rows="20" cols="30"></textarea></div>
+        <div><textarea id="history" name="history" rows="20" cols="35"></textarea></div>
 
         <div id="ai2-grid" class="grid"></div>
         <ul id="ul-right">
-            <li>Porte Avions : En Vie</li>
-            <li>Cuirasse : En Vie</li>
-            <li>Destroyer : En Vie</li>
-            <li>Sousmarin : En Vie</li>
-            <li>Patrouilleur : En Vie</li>
+            <li id="porte-avions2">Porte Avions : En Vie</li>
+            <li id="cuirasse2">Cuirasse : En Vie</li>
+            <li id="destroyer2">Destroyer : En Vie</li>
+            <li id="sous-marin2">Sousmarin : En Vie</li>
+            <li id="patrouilleur2">Patrouilleur : En Vie</li>
         </ul>
     </div>
 </div>

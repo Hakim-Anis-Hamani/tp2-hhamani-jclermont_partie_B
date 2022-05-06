@@ -44,12 +44,15 @@ body {
     color: white;
     margin: auto;
 }
-#end-game,#pause-game {
+#end-game,#pause-game, #continue-game {
     width: 20%;
     padding: 2px;
     background-color: #4D4D4D;
     color: white;
     margin: auto;
+}
+#continue-game {
+    display: none;
 }
 #ul-left{
     padding:0px;
@@ -86,6 +89,10 @@ li{
 .squareHit{
     outline: thin solid #4D4D4D;
     background-color: #ff1a1a ;
+}
+.squareMiss{
+    outline: thin solid #4D4D4D;
+    background-color: #7b7474;
 }
 .container{
     display: flex;
