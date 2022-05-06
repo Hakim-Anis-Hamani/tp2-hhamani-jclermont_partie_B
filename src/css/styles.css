@@ -44,6 +44,25 @@ body {
     color: white;
     margin: auto;
 }
+#end-game,#pause-game {
+    width: 20%;
+    padding: 2px;
+    background-color: #4D4D4D;
+    color: white;
+    margin: auto;
+}
+#ul-left{
+    padding:0px;
+    list-style-type:none ;
+}
+#ul-right{
+    list-style-type:none ;
+    padding:0px;
+
+}
+li{
+    padding-bottom: 2px;
+}
 
 #ai1-grid, #ai2-grid {
     width: 500px;
@@ -73,8 +92,11 @@ body {
     flex-direction: column;
 }
 .grids{
-    display: flex;
+    display: none;
     justify-content: space-around;
+}
+textarea{
+    font-size: small;
 }
 
 

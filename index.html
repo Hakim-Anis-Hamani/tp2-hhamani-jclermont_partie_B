@@ -11,8 +11,8 @@
 <body>
 <div class="container">
     <h1 id="title">BattleShip</h1>
-     <div class="ai-form-container">
-        <form action = "" method="post">
+    <div class="ai-form-container">
+        <form action="" method="post">
             <div class="ai-form">
 
                 <label for="AiNomJoueur1" class="AiNomJoueur1">Nom de l'IA #1</label>
@@ -36,13 +36,31 @@
                 <input id="AiJetonJoueur2" type="text">
             </div>
         </form>
-        <button id ="ai-form-submit" type="submit">Send it</button>
+        <button id="end-game" type="button">Stop Game</button>
+        <button id="ai-form-submit" type="submit">Start game</button>
+        <button id="pause-game" type="button">Pause</button>
     </div>
-    <div class="grids">
-    <div id="ai1-grid" class="grid">
+    <div class="grids" id="grids">
+        <ul id="ul-left">
+            <li>Porte Avions : En Vie</li>
+            <li>Cuirasse : En Vie</li>
+            <li>Destroyer : En Vie</li>
+            <li>Sousmarin : En Vie</li>
+            <li>Patrouilleur : En Vie</li>
+        </ul>
+        <div id="ai1-grid" class="grid"></div>
 
+        <div><textarea id="history" name="history" rows="20" cols="30"></textarea></div>
+
+        <div id="ai2-grid" class="grid"></div>
+        <ul id="ul-right">
+            <li>Porte Avions : En Vie</li>
+            <li>Cuirasse : En Vie</li>
+            <li>Destroyer : En Vie</li>
+            <li>Sousmarin : En Vie</li>
+            <li>Patrouilleur : En Vie</li>
+        </ul>
     </div>
-    <div id="ai2-grid" class="grid"></div></div>
 </div>
 </body>
 </html>
